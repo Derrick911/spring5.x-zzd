@@ -17,8 +17,8 @@ public class Test {
 ////        User bean2 = (User) ac.getBean("myFactoryBean");
 ////        System.out.println(bean2.getUsername());
 //
-////        MyClassPathXmlApplicationContext ac = new MyClassPathXmlApplicationContext("applicationContext.xml");
-////        System.out.println(ac.getBean(MyPropertySource.class).getName());
+        MyClassPathXmlApplicationContext ac = new MyClassPathXmlApplicationContext("applicationContext.xml");
+//        System.out.println(ac.getBean(MyPropertySource.class).getName());
 ////        ApplicationContext ac = new ClassPathXmlApplicationContext("spring-${username}.xml");
 ////        Person bean = ac.getBean(Person.class);
 ////        System.out.println(bean);
